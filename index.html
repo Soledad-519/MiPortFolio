@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- BOOTSTRAP5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384- QWTKZyjpPEjISv5WaRY90FeRpok6YctnYmDr5pN1yT2bRjXh0JMjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- FONTAWESOME -->
+<script src="https://kit.fontawesome.com/73b37bbd62.js" crossorigin="anonymous"></script>
+<!-- MIS ESTILOS -->
+<link rel="stylesheet" href="/CSS/styles.css">
+<!-- FAVICON -->
+<link rel="shortcut icon" href="https://mir-s3-cdn-cf.behance.net/project_modules/disp/945b0225337909.563440870421b.png" type="image/ x-icon">
+<title>Portfolio | Booststrap 5</title>
+</head>
+
+<body class="bg-light">
+
+<!-- NAVBAR -->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+        <div class="container lg">
+            <a href="#" class="navbar-brand text-danger  fw-bold fs-4">PORTFOLIO</a>
+            <div class="dropdown"> 
+                <button class=" btn btn-danger px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button> 
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                    <li><a href="#home" class="dropdown-item">Home</a></li>
+                    <li><a href="#Acerca de" class="dropdown-item">Acerca de</a></li>
+                    <li><a href="#Servicios" class="dropdown-item">Servicios</a></li>
+                    <li><a href="#Portfolio" class="dropdown-item">Portfolio</a></li>
+                    <li><a href="#Reseñas" class="dropdown-item">Reseñas</a></li>
+                    <li><a href="#Contacto" class="dropdown-item">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- HOME SECTION -->
+<section class="home" id="home">
+    <div class="container-lg">
+        <div class="row align-items-center py-5"> <!-- Ajuste a py-5 directamente en la fila -->
+            <div class="col-md-6 mt-4 d-flex justify-content-center align-items-center"> <!-- Espaciado superior más controlado -->
+                <div class="home-img text-center">
+                    <img src="img/Screenshot_20240824-160734.png" alt="foto de perfil" class="img-fluid rounded-circle mw-100">
+                </div>
+            </div>
+            <div class="col-md-6 mt-4 order-md-first">
+                <div class="home-text">
+                    <p class="text-muted mb-1">Hola Soy Caria Maria Soledad!</p>
+                    <h1 class="text-danger text-uppercase fs-1 fw-bold">Desarrolladora Web</h1>
+                    <h2 class="fs-4">Html5 | CSS3 | Scrum | Git | Bootstrap5 |  <br> JavaScript | React |</h2>
+                    <p class="mt-4 text-muted"> Amplio conocimiento en programas, aplicaciones y plataformas elementales en diseño y desarrollo, enfocadas a transformar toda idea en experiencias digitales innovadoras, creativas y eficientes para ofrecer a los usuarios.</p>
+                    <a href="#portfolio" class="btn btn-danger px-3 mt-3">Mis trabajos <i class="fa-solid fa-briefcase"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ABOUT SECTION -->
+    <section class="about bg-white py-5" id="acercaDe">
+        <div class="container-lg py-4">
+
+            <!-- SUBTITULO -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Acerca de mi</h2>
+                    </div>
+                </div>
+                <!-- SUBTITULO -->
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="about-text">
+                            <h3 class="fs-4 mb-3">"Tengo 33 años y me destaco por mi interés en el aprendizaje continuo, así como por mi compromiso, responsabilidad y habilidades sociales. Estas cualidades me permiten integrarme y colaborar eficientemente en equipos de trabajo."</h3>
+                            <p class="text-muted">"Soy profesora de Educación Física y estoy en la etapa final de mi licenciatura, trabajando en mi tesis para concluirla con éxito. Paralelamente, estoy estudiando programación, lo que me ha permitido adquirir y desarrollar habilidades en tecnologías como HTML5, CSS3, Scrum, Git, Bootstrap5, JavaScript y React. Además, cuento con conocimientos en una amplia gama de programas de diseño gráfico."</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="fact-item">
+                                    <h4 class="fs-1 fw-bold">100</h4>
+                                    <p class="text-muted">Proyectos Completados</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="fact-item">
+                                    <h4 class="fs-1 fw-bold">90</h4>
+                                    <p class="text-muted">Clientes Satisfechos</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="fact-item">
+                                    <h4 class="fs-1 fw-bold">95</h4>
+                                    <p class="text-muted">Reseñas Positivas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--BOTON DESCARGA-->
+                        <div class="row text-center text-uppercase my-3">
+                            <div class="col-lg-12 d-flex align-items-center">
+                                <a href="/img/WhatsApp Image 2024-09-02 at 12.05.50.jpeg"  target="_blank" class="btn btn-danger me-5 px-3">Descargar CV</a>
+                                <div class=" social-links">
+                                    <a href="https://www.facebook.com/peke.caria" class="text-dark me-2 fs-3"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="#" class="text-dark me-2 fs-3"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://www.instagram.com/pekecaria/" class="text-dark me-2 fs-3"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/maria-soledad-caria-134b90354/?lipi=urn%3Ali%3Apage%3Ap_mwlite_my_network%3BxT4oKTCdTCCwkwSRXUkvQg%3D%3D" class="text-dark me-2 fs-3"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mt-5 mt-md-0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHTML" aria-expanded="true" aria-controls="collapseHTML">
+                                        Desarrollo Web
+                                    </button>
+                                </h2>
+                                <div id="collapseHTML" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    <strong>HTML 5, CSS 3, BOOTSTRAP 5, JAVASCRIPT, REACT.</strong>
+                                    </div>
+                                    <h2 style="text-align: center; font-size: 16px; font-weight: normal;">
+                                    Tengo una sólida base en desarrollo front-end cubriendo desde la estructura, diseño y funcionalidad hasta el desarrollo de aplicaciones complejas.
+                                    Gracias a mi conocimiento en estas tecnologías, soy capaz de transformar ideas en experiencias digitales eficientes y modernas, brindando tanto estética como funcionalidad a cada proyecto.
+                                    </h2>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCSS" aria-expanded="false" aria-controls="collapseCSS">
+                                        Diseño Grafico
+                                    </button>
+                                </h2>
+                                <div id="collapseCSS" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    <strong>Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe LightRoom, Adobe Premier Pro, Adobe After Effect, Adobe Audition, Adobe Creative Cloud, Corel Draw, Cinema 4D, Blender 3D, AutoCad, Canva,Camtasia Studio, Filmora.
+                                    </div>
+                                    <h2 style="text-align: center; font-size: 16px; font-weight: normal;">
+                                    Ofrezco soluciones creativas completas que combinan diseño gráfico, edición multimedia y modelado 3D para satisfacer las necesidades de proyectos innovadores.
+                                    Con el conocimiento de este conjunto de habilidades, siento que puedo destacarme en varios sectores, como diseño gráfico, producción multimedia, arquitectura, animación y marketing digital.
+                                    </h2>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- SERVICES SECTION -->
+    <section class="services py-5" id="Servicios">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class=" col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Mis Servicios</h2>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <article class="col-md-6 col-lg-4 mb-4">
+                        <div class="service-item shadow-sm p-4 rounded bg-white">
+                            <div class=" icon my-3 text-danger fs-2">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <h3 class="fs-5 py-2">Desarrollo web</h3>
+                            <p class="text-muted">Responsivo, Funcional, Personalizado y atractivo.</p>
+                        </div>
+                    </article>
+
+                    <article class="col-md-6 col-lg-4 mb-4">
+                        <div class="service-item shadow-sm p-4 rounded bg-white">
+                            <div class=" icon my-3 text-danger fs-2">
+                                <i class="fa-solid fa-lightbulb"></i>
+                            </div>
+                            <h3 class="fs-5 py-2">Diseño creativo</h3>
+                            <p class="text-muted">Creativa, Innovadora.</p>
+                        </div>
+                    </article>
+
+                    <article class="col-md-12 col-lg-4 mb-4">
+                        <div class="service-item shadow-sm p-4 rounded bg-white">
+                            <div class=" icon my-3 text-danger fs-2">
+                                <i class="fa-solid fa-arrows-split-up-and-left"></i>
+                            </div>
+                            <h3 class="fs-5 py-2">Metodologias Agiles</h3>
+                            <p class="text-muted">Adaptable, Colaborativa y flexible ante diferentes roles y propuestas.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--PORTFOLIO SECTION-->
+<section class="portfolio bg-white py-5" id="portfolio">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Mis últimos trabajos</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <article class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <!-- Confirma que esta URL apunte a una imagen válida -->
+                    <img src="img\Captura de pantalla 2025-04-05 150933.png" alt="Proyecto 1" class="w-100 portfolio-img img-thumbnail">
+                    <h3 class="text-capitalize fs-5 my-2">Proyecto 1: App web-cursos-bootstrap5</h3>
+                    <p class="mb-4"><a href="https://web-cursos-bootstrap5.vercel.app" target="_blank" class="text-danger text-decoration-none">Ver más</a></p>
+                </div>
+            </article>
+            <article class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <!-- Cambia esta URL si tienes una imagen específica -->
+                    <img src="img/Captura de pantalla 2025-04-05 150958.png" alt="Proyecto 2" class="w-100 portfolio-img img-thumbnail">
+                    <h3 class="text-capitalize fs-5 my-2">Proyecto 2: App adopta-un-michi</h3>
+                    <p class="mb-4"><a href="https://adopta-un-michi-nzeg0bnhk-mariasoledadcarias-projects.vercel.app" target="_blank" class="text-danger text-decoration-none">Ver más</a></p>
+                </div>
+            </article>
+            <article class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img\Captura de pantalla 2025-04-05 151041.png" alt="Proyecto 3" class="w-100 portfolio-img img-thumbnail">
+                    <h3 class="text-capitalize fs-5 my-2">Proyecto 3: App Turismo y Gastronomia</h3>
+                    <p class="mb-4"><a href="https://turismo-y-gastronomia-trabajo-final-modulo-1.vercel.app/" target="_blank" class="text-danger text-decoration-none">Ver más</a></p>
+                </div>
+            </article>
+            <article class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img\Captura de pantalla 2025-04-05 152639.png" alt="Proyecto 5" class="w-100 portfolio-img img-thumbnail">
+                    <h3 class="text-capitalize fs-5 my-2">Proyecto 4: Gif-App--React--Master </h3>
+                    <p class="mb-4"><a href="https://gif-app-react-master.vercel.app/" target="_blank" class="text-danger text-decoration-none">Ver más</a></p>
+                </div>
+            </article>
+            <article class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/Captura de pantalla 2025-04-05 153241.png" alt="Proyecto 5" class="w-100 portfolio-img img-thumbnail">
+                    <h3 class="text-capitalize fs-5 my-2">Proyecto 5: Juego golpear al topo </h3>
+                    <p class="mb-4"><a href="https://juego-golpear-al-topo.vercel.app/" target="_blank" class="text-danger text-decoration-none">Ver más</a></p>
+                </div>
+            </article>
+            <article class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img\Captura de pantalla 2025-04-05 153807.png" alt="Proyecto 5" class="w-100 portfolio-img img-thumbnail">
+                    <h3 class="text-capitalize fs-5 my-2">Proyecto 6:  App Restaurante </h3>
+                    <p class="mb-4"><a href="https://restaurante-app-gamma.vercel.app/" target="_blank" class="text-danger text-decoration-none">Ver más</a></p>
+                </div>
+            </article>
+            <article class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img\Captura de pantalla 2025-04-05 153848.png" alt="Proyecto 5" class="w-100 portfolio-img img-thumbnail">
+                    <h3 class="text-capitalize fs-5 my-2">Proyecto 7: App Pochoclos </h3>
+                    <p class="mb-4"><a href="https://pochoclos-app-final.vercel.app/" target="_blank" class="text-danger text-decoration-none">Ver más</a></p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+
+<!--FREELANCE SECTION-->
+    <section class="freelance-section bg-danger bg-gradient py-5">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="text-light fs-5">¿Necesitas realizar algun proyecto?</p>
+                    <h2 class="fs-1 text-white mb-4">¡Yo estoy disponibles para ayudarte!</h2>
+                    <a href="https://api.whatsapp.com/send?phone=543815537960" target="_blank" class="btn btn-outline-light">Contactame</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--REVIEWS SECTION-->
+<section class="reseñas py-5" id="reseñas">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="fw-bold mb-5 text-center">Reseñas de Clientes</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <!-- ITEM 1 -->
+                        <div class="carousel-item active">
+                            <div class="review-item bg-danger bg-gradient shadow-sm rounded p-4">
+                                <div class="review-author-info d-flex align-items-center justify-content-center">
+                                    <img src="img/pexels-danxavier-1121796.jpg" alt="profile-img" class="img-thumbnail rounded-circle">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6 mb-1 text-white">Lucas Medina</h3>
+                                        <p class="text-white m-0">32 años, Tucumán.</p>
+                                    </div>
+                                </div>
+                                <p class="text-white mt-3 text-center mx-5 p-2">La app que creó Maria para nuestro negocio ha revolucionado la forma en que nos conectamos con nuestros clientes...</p>
+                                <div class="rating text-white">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM 2 -->
+                        <div class="carousel-item">
+                            <div class="review-item bg-danger bg-gradient shadow-sm rounded p-4">
+                                <div class="review-author-info d-flex align-items-center justify-content-center">
+                                    <img src="/img/pexels-hannah-nelson-390257-1065084.jpg" alt="profile-img" class="img-thumbnail rounded-circle">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6 mb-1 text-white">Maira Lopez</h3>
+                                        <p class="text-white m-0">30 años, Tucumán.</p>
+                                    </div>
+                                </div>
+                                <p class="text-white mt-3 text-center mx-5 p-2">Gracias a Soledad, ahora tenemos una aplicación impresionante...</p>
+                                <div class="rating text-white">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM 3 -->
+                        <div class="carousel-item">
+                            <div class="review-item bg-danger bg-gradient shadow-sm rounded p-4">
+                                <div class="review-author-info d-flex align-items-center justify-content-center">
+                                    <img src="/img/pexels-italo-melo-881954-2379004.jpg" alt="profile-img" class="img-thumbnail rounded-circle">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6 mb-1 text-white">Julian Pachado</h3>
+                                        <p class="text-white m-0">26 años, Tucumán.</p>
+                                    </div>
+                                </div>
+                                <p class="text-white mt-3 text-center mx-5 p-2">Trabajar con Soledad fue una experiencia increíble...</p>
+                                <div class="rating text-white">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--FORM SECTION-->
+<section class="contact bg-light py-5" id="contacto">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class=" text center mb-5 fw-bold">Contacta Conmigo</h2>
+            </div>
+        </div >
+
+        <div class="row">
+        <div class="col-md-5">
+            <article class="contact-item d-flex mb-3">
+                <div class="icon fs-4 text-danger">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="text ms-3">
+                    <h3 class="fs-5">Email</h3>
+                    <p class="text-muted">mariasoledadcaria@gmail.com</p>
+                </div>
+            </article>
+
+            <article class="contact-item d-flex mb-3">
+                <div class="icon fs-4 text-danger">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="text ms-3">
+                    <h3 class="fs-5">Telefono</h3>
+                    <p class="text-muted">+543815537960</p>
+                </div>
+            </article>
+
+            <article class="contact-item d-flex mb-3">
+                <div class="icon fs-4 text-danger">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="text ms-3">
+                    <h3 class="fs-5">Ubicacion</h3>
+                    <p class="text-muted">San Lorenzo 3500</p>
+                </div>
+            </article>
+        </div>
+        <div class="col-md-7">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <input type="text" 
+                                   name="name" 
+                                   placeholder="Tu nombre" 
+                                   class="form-control form-control-lg fs-6 border-0 shadow-sm" 
+                                   required 
+                                   maxlength="50">
+                            <small class="text-danger d-none" id="nameError">Máximo 50 caracteres permitidos.</small>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <input type="email" 
+                                   name="email" 
+                                   placeholder="Tu mail" 
+                                   class="form-control form-control-lg fs-6 border-0 shadow-sm" 
+                                   required 
+                                   maxlength="100">
+                            <small class="text-danger d-none" id="emailError">Máximo 100 caracteres permitidos.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 mb-4">
+                            <input type="text" 
+                                   name="asunto" 
+                                   placeholder="Asunto" 
+                                   class="form-control form-control-lg fs-6 border-0 shadow-sm" 
+                                   required 
+                                   maxlength="100">
+                            <small class="text-danger d-none" id="asuntoError">Máximo 100 caracteres permitidos.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 mb-4">
+                            <textarea rows="5" 
+                                      name="Mensaje" 
+                                      placeholder="Escribe tu mensaje" 
+                                      class="form-control form-control-lg fs-6 border-0 shadow-sm" 
+                                      required 
+                                      maxlength="500"></textarea>
+                            <small class="text-danger d-none" id="mensajeError">Máximo 500 caracteres permitidos.</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button type="submit" class="btn btn-danger px-3">Enviar mensaje</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!--FOOTER-->
+<footer class="footer border-top py-4 bg-dark bg-gradient">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="m-0 text-center text-white">&copy; Comision Web 4 -2024</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--BOOTSTRAP5 SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384- YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIds1K1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
